@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{spconf,amsmath,graphicx}
+
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=14pt}
+
+\usepackage{mwe} %
+
+\def\x{{\mathbf x}}
+\def\L{{\cal L}}
+
+
+\title{Transferring Models Trained on Natural Images to 3D MRI via Position Encoded Slice Models}
+\name{
+\begin{tabular}{c}
+  Umang Gupta$^\star$ \qquad
+  Tamoghna Chattopadhyay$^\dagger$ \qquad
+  Nikhil Dhinagar$^\dagger$ \qquad
+  Paul M.\ Thompson$^\dagger$
+  \\
+  Greg Ver Steeg$^\ddag$\qquad
+  The Alzheimer's Disease Neuroimaging Initiative (ADNI)
+\end{tabular}
+}
+\address{
+  $^\star$ Information Sciences Institute, University of Southern California \\
+  $^\dagger$ Imaging Genetics Center, Mark and Mary Stevens Institute for Neuroimaging and Informatics, \\Keck School of Medicine, University of Southern California\\
+  $\ddag$ University of California Riverside
+}
+
+\usepackage[utf8]{inputenc} %
+\usepackage[T1]{fontenc}    %
+\usepackage{hyperref}       %
+\usepackage{url}            %
+\usepackage{booktabs}       %
+\usepackage{amsfonts}       %
+\usepackage{nicefrac}       %
+\usepackage{microtype}      %
+\usepackage{xcolor}         %
+\usepackage[]{multirow}
+\usepackage[]{amssymb}
+\usepackage{mwe}
+\usepackage{makecell}
+\usepackage{todonotes}
+\usepackage{pifont}         %
+\usepackage{stfloats}%
+\usepackage{amsmath}
+\usepackage{arydshln}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\usepackage{lineno}
+
+\newcommand{\four}{10\textsuperscript{-4}}
+\newcommand{\three}{10\textsuperscript{-3}}
+\newcommand{\five}{10\textsuperscript{-5}}
+
+\newcommand{\adam}{\texttt{ADAM}}
+\newcommand{\sgd}{\texttt{SGD}}
+\newcommand{\no}{\xmark}
+\newcommand{\yes}{\cmark}
+
+\newcommand{\axisone}{sagittal}
+\newcommand{\axistwo}{coronal}
+\newcommand{\axisthree}{axial}
+\newcommand{\result}[2]{#1{ $\pm$ #2}}
+\newcommand{\codeurl}{\url{https://github.com/umgupta/2d-slice-set-networks}}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+
+\begin{keywords}
+  MRI, deep learning, machine learning, neuroimaging, transfer learning
+\end{keywords}
+
+\input{sections/intro}
+\input{sections/method}
+\input{sections/setup}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/ethics}
+\input{sections/acknowledgements}
+
+\bibliographystyle{IEEEbib}
+{\small\bibliography{refs}}
+\end{document}

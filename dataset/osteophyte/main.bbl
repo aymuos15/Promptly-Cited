@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+
+\bibitem{van2007osteophytes}
+Peter~M Van Der~Kraan and Wim~B Van Den~Berg,
+\newblock ``Osteophytes: relevance and biology,''
+\newblock {\em Osteoarthritis and cartilage}, vol. 15, no. 3, pp. 237--244, 2007.
+
+\bibitem{jones2012l5}
+Thomas~Louis Jones and Michael~S Hisey,
+\newblock ``L5 radiculopathy caused by l5 nerve root entrapment by an l5-s1 anterior osteophyte,''
+\newblock {\em International Journal of Spine Surgery}, vol. 6, pp. 174--177, 2012.
+
+\bibitem{tozawa2021possible}
+Ryosuke Tozawa, Yuya Ogawa, Yusuke Minamoto, Taishi Ninomiya, Takahiro Ogura, Shotaro Watanabe, Seiji Kimura, Yuki Shiko, Yohei Kawasaki, Ryuichiro Akagi, et~al.,
+\newblock ``Possible role of mri-detected osteophytes as a predictive biomarker for development of osteoarthritis of the knee: A study using data from the osteoarthritis initiative,''
+\newblock {\em Osteoarthritis and Cartilage Open}, vol. 3, no. 4, pp. 100200, 2021.
+
+\bibitem{wang2016detection}
+Yinong Wang, Jianhua Yao, Joseph~E Burns, Jiamin Liu, and Ronald~M Summers,
+\newblock ``Detection of degenerative osteophytes of the spine on pet/ct using region-based convolutional neural networks,''
+\newblock in {\em Computational Methods and Clinical Applications for Spine Imaging: 4th International Workshop and Challenge, CSI 2016, Held in Conjunction with MICCAI 2016, Athens, Greece, October 17, 2016, Revised Selected Papers 4}. Springer, 2016, pp. 116--124.
+
+\bibitem{ebsim2022automatic}
+Raja Ebsim, Benjamin~G Faber, Fiona Saunders, Monika Frysz, Jenny Gregory, Nicholas~C Harvey, Jonathan~H Tobias, Claudia Lindner, and Timothy~F Cootes,
+\newblock ``Automatic segmentation of hip osteophytes in dxa scans using u-nets,''
+\newblock in {\em International Conference on Medical Image Computing and Computer-Assisted Intervention}. Springer, 2022, pp. 3--12.
+
+\bibitem{ronneberger2015u}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox,
+\newblock ``U-net: Convolutional networks for biomedical image segmentation,''
+\newblock in {\em Medical Image Computing and Computer-Assisted Intervention--MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18}. Springer, 2015, pp. 234--241.
+
+\bibitem{banerjee2011osteophyte}
+Sreeparna Banerjee, Satyajit Bhunia, and Gerald Schaefer,
+\newblock ``Osteophyte detection for hand osteoarthritis identification in x-ray images using cnns,''
+\newblock in {\em 2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society}. IEEE, 2011, pp. 6196--6199.
+
+\bibitem{nguyen2021vindr}
+Hieu~T Nguyen, Hieu~H Pham, Nghia~T Nguyen, Ha~Q Nguyen, Thang~Q Huynh, Minh Dao, and Van Vu,
+\newblock ``Vindr-spinexr: A deep learning framework for spinal lesions detection and classification from radiographs,''
+\newblock in {\em Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part V 24}. Springer, 2021, pp. 291--301.
+
+\bibitem{chen2023vertxnet}
+Yao Chen, Yuanhan Mo, Aimee Readie, Gregory Ligozio, Indrajeet Mandal, Faiz Jabbar, Thibaud Coroller, and Bart{\l}omiej~W Papie{\.z},
+\newblock ``Vertxnet: an ensemble method for vertebral body segmentation and identification from cervical and lumbar spinal x-rays,''
+\newblock {\em Scientific Reports}, vol. 14, no. 1, pp. 3341, 2024.
+
+\bibitem{wang2020ss}
+Haofan Wang, Rakshit Naidu, Joy Michael, and Soumya~Snigdha Kundu,
+\newblock ``Ss-cam: Smoothed score-cam for sharper visual feature localization,''
+\newblock {\em arXiv preprint arXiv:2006.14255}, 2020.
+
+\bibitem{ozge2019power}
+F~Ozge~Unel, Burak~O Ozkalayci, and Cevahir Cigla,
+\newblock ``The power of tiling for small object detection,''
+\newblock in {\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops}, 2019, pp. 0--0.
+
+\bibitem{Shi_2023}
+Xintong Shi, Wenzhi Cao, and Sebastian Raschka,
+\newblock ``Deep neural networks for rank-consistent ordinal regression based on conditional probabilities,''
+\newblock {\em Pattern Analysis and Applications}, vol. 26, no. 3, pp. 941--955, jun 2023.
+
+\bibitem{lin2017focal}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Doll{\'a}r,
+\newblock ``Focal loss for dense object detection,''
+\newblock in {\em Proceedings of the IEEE international conference on computer vision}, 2017, pp. 2980--2988.
+
+\bibitem{girshick2014rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik,
+\newblock ``Rich feature hierarchies for accurate object detection and semantic segmentation,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and pattern recognition}, 2014, pp. 580--587.
+
+\bibitem{nevalainen2023ultrasound}
+Mika~T Nevalainen, Antti-Pekka Uusimaa, and Simo Saarakkala,
+\newblock ``The ultrasound assessment of osteoarthritis: the current status,''
+\newblock {\em Skeletal Radiology}, pp. 1--12, 2023.
+
+\end{thebibliography}

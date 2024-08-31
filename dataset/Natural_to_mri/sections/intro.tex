@@ -1,0 +1,43 @@
+\section{Introduction}\label{sec:intro}
+
+Even though tremendous advances have been made in pretraining computer vision models that work well for natural images such as photographs, it is unclear how easily these pretrained models can be adapted to perform tasks on radiologic images such as MRIs due to domain differences. Moreover, natural images are 2-dimensional (2D), whereas brain MRIs are typically 3-dimensional (3D), making the direct finetuning of the model pretrained on 2D images challenging.
+This has led to an active debate in the radiology field on how to pretrain deep learning methods for MRI-based tasks, such as disease classification and staging, identifying pathology, and anatomical  segmentation (e.g., \cite{alzubaidi2021deepening,ke2021chextransfer,valverde2021transfer}).
+Many workarounds have been proposed, such as  deriving specialized pretraining datasets such as  YouTube videos~\cite{MALIK2022325} or making predictions from only a few MRI slices~\cite{hon2017towards,valliani2017deep,islam2018brain,MRISignBrainAge}. Using fewer slices severely limits the information available for a machine learning model to make predictions, leading to suboptimal performance.
+
+
+
+
+
+
+
+
+To this end, we consider recently proposed 2D-Slice-CNN models that can consider full 3D MRI scans as the input. These models process each 2D slice via a slice encoder (usually a 2D CNN) and aggregate the resulting slice embeddings via permutation invariant operations, such as by computing the mean of the embeddings or using self-attention over the embeddings~\cite{gupta2021improved},  max-pooling~\cite{dhinagar2022evaluation}, or RNNs~\cite{lam2020accurate}.
+These models can access information from all the slices during training, thus exploiting a richer feature set than models that work with a single slice, and the neural networks pretrained on 2D natural images are excellent candidates to use as the slice encoder. Our first contribution is to study the effect of replacing the slice encoder with a model pretrained on ImageNet.
+
+Our second contribution is incorporating positional encoding in the 2D-Slice model before slice embedding aggregation to preserve spatial information.
+The permutation-invariant operations can remove information about the ordering of the slices, thus limiting learning capabilities. Adding positional encoding, i.e., a unique vector corresponding to each position, can help, especially if predictive features are reliably located in specific parts of the images. Positional encoding allows the model to learn spatial information if needed (e.g.,~\cite{SCHLEMPER2019197}).
+
+
+
+
+
+
+
+
+
+We extensively evaluate the above-discussed models and a 3D-CNN with comparable architecture for brain age prediction (the common benchmarking task of predicting a person's age from their MRI scan) and an Alzheimer's disease diagnosis (binary classification) task.
+Incorporating positional encodings improved test performance in some cases. Contrary to~\cite{gupta2021improved}, we find that 2D-Slice-CNNs perform comparably to 3D-CNN for brain age prediction\footnote{3D-CNN results improved due to expanded hyperparameter search.}. Further, 2D-Slice-CNN models initialized randomly did not perform at par with 3D-CNNs for AD detection. However, the  2D-Slice-CNN models with ImageNet pretrained ResNet-18 encoder outperformed all the models for both tasks, showing that it is possible to transfer inductive biases from natural images to 3D neuroimaging tasks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

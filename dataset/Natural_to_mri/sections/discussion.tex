@@ -1,0 +1,12 @@
+\section{Discussion}\label{sec:discussion}
+
+
+
+
+In this paper, we extended the 2D-Slice-based architecture of~\cite{gupta2021improved} by incorporating positional embeddings.we demonstrated improved brain age prediction and AD detection performance by employing slice encoders pretrained on ImageNet-1K, a large dataset of natural 2D images.
+
+Our work contributes to the growing literature on using pretraining for machine learning on radiologic images, for which training datasets are often small. Since most large image datasets are 2D natural images, it is natural to pretrain on natural images.  However, there are two main challenges with this --- a) Domain mismatch, i.e., radiologic images vs.\ natural images; b) Input dimension mismatch, i.e., 2D vs.\ 3D images. Most prior works using off-the-shelf vision models (i.e., pretrained with natural image datasets such as ImageNet) consider a single or a few 2D slices of the MRI scan as the input to avoid the problem of input mismatch~\cite{hon2017towards,valliani2017deep,islam2018brain,MRISignBrainAge}. These may then aggregate the results from different slices during inference only. Such approaches are limiting and lead to suboptimal performance.
+
+In contrast, our approach only substitutes encoders with pretrained counterparts. The model is trained end-to-end and considers the whole MRI as input. It addresses the input dimension mismatch problem without limiting or compromising the information available to the model to make predictions. Despite domain mismatch, pretraining outperforms the models trained from scratch.
+
+Very few datasets exist for pretraining with raw 3D MRI images directly~\cite{chen2019med3d}. Only recently very large radiologic 2D image datasets become have publicly available for pretraining models~\cite{doi:10.1148/ryai.210315,alzubaidi2021mednet}. It would be interesting to pretrain 2D encoders with such datasets in the future to alleviate the domain mismatch problem. In this work, we used models pretrained on the supervised classification task. In future, it would be interesting to evaluate self-supervised pretraining with in- and out-domain images (e.g., \cite{dhinagar2022evaluation}).

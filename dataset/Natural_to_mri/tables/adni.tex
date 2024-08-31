@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+\begin{table*}[t]
+    \centering
+    \fontsize{10}{11}\selectfont
+    \begin{tabular}[]{l cccc ccc}
+        \toprule
+        \multicolumn{4}{c}{Method}
+        &\multirow{2}{*}{\makecell[tc]{Bal.\\ Accuracy}}
+        &\multirow{2}{*}{\makecell[tc]{F1\\Score}}
+        &\multirow{2}{*}{\makecell[tc]{Avg.\\ Precision}}
+        \\
+        \cmidrule(l){1-4}
+        Encoder &
+        Pos. Enc.  &
+        Pretrained &
+        Axis &
+        \\
+        \cmidrule(l){1-1}
+        \cmidrule(lr){2-2}
+        \cmidrule(lr){3-3}
+        \cmidrule(lr){4-4}
+        \cmidrule(lr){5-5}
+        \cmidrule(lr){6-6}
+        \cmidrule(l){7-7}
+
+        3D-CNN                & -    & \no  & -          & \result{88.40}{0.703} & \result{84.44}{1.028} & \result{92.33}{0.492} \\
+        \cmidrule(l){1-7}
+
+        2D-CNN (Mean)         & \no  & \no  & \axisone   & \result{87.53}{1.311} & \result{84.40}{1.707} & \textbf{\result{94.86}{0.946}} \\ %
+        2D-CNN (Mean)         & \no  & \no  & \axistwo   & \result{85.78}{2.811} & \result{81.38}{3.610} & \result{90.57}{2.976} \\ %
+        2D-CNN (Mean)         & \no  & \no  & \axisthree & \result{86.34}{1.445} & \result{82.21}{1.573} & \result{90.81}{0.677} \\ %
+        \noalign{\vskip 0.25ex}\cdashline{2-7}\noalign{\vskip 0.5ex}
+        2D-CNN (Mean)         & \yes & \no  & \axisone   & \result{87.05}{1.115} & \result{83.40}{0.873} & \result{93.40}{0.956} \\ %
+        2D-CNN (Mean)         & \yes & \no  & \axistwo   & \result{85.41}{2.521} & \result{80.62}{2.521} & \result{89.86}{0.771} \\ %
+        2D-CNN (Mean)         & \yes & \no  & \axisthree & \result{86.61}{0.942} & \result{81.20}{1.971} & \result{91.44}{2.123} \\ %
+        \cmidrule(l){1-7}
+        2D-ResNet-18 (Mean)   & \no  & \no  & \axisone   & \result{85.71}{4.834} & \result{80.89}{6.111} & \result{91.12}{2.880} \\ %
+        2D-ResNet-18 (Mean)   & \no  & \no  & \axistwo   & \result{85.73}{1.433} & \result{81.30}{1.802} & \result{90.60}{2.544} \\ %
+        2D-ResNet-18 (Mean)   & \no  & \no  & \axisthree & \result{84.61}{2.099} & \result{79.21}{2.906} & \result{88.95}{1.741}   \\ %
+        \noalign{\vskip 0.25ex}\cdashline{2-7}\noalign{\vskip 0.5ex}
+        2D-ResNet-18 (Mean)   & \yes & \no  & \axisone   & \result{86.57}{2.871} & \result{81.69}{3.972} & \result{91.80}{2.150} \\ %
+        2D-ResNet-18 (Mean)   & \yes & \no  & \axistwo   & \result{84.34}{1.706} & \result{79.75}{2.258} & \result{90.29}{0.645} \\ %
+        2D-ResNet-18 (Mean)   & \yes & \no  & \axisthree & \result{86.55}{1.059} & \result{81.39}{1.752} & \result{90.82}{0.701} \\ %
+        \cmidrule(l){1-7}
+        2D-ResNet-18 (Mean)   & \no  & \yes & \axisone   & \result{87.09}{1.192} & \result{82.07}{1.167} & \result{90.80}{1.601} \\ %
+        2D-ResNet-18 (Mean)   & \no  & \yes & \axistwo   & \result{87.31}{0.971} & \result{83.19}{1.518} & \result{91.80}{1.626} \\ %
+        2D-ResNet-18 (Mean)   & \no  & \yes & \axisthree & \textbf{\result{88.59}{1.187}} & \textbf{\result{85.10}{1.265}} & \result{93.11}{0.482} \\ %
+        \noalign{\vskip 0.25ex}\cdashline{2-7}\noalign{\vskip 0.5ex}
+        2D-ResNet-18 (Mean)   & \yes & \yes & \axisone   & \result{87.19}{2.037} & \result{83.16}{2.158} & \result{91.75}{1.291} \\ %
+        2D-ResNet-18 (Mean)   & \yes & \yes & \axistwo   & \result{86.95}{2.750} & \result{82.33}{2.811} & \result{90.96}{1.541} \\ %
+        2D-ResNet-18 (Mean)   & \yes & \yes & \axisthree & \textbf{\result{88.60}{2.058}} & \result{84.52}{2.389} & \result{92.56}{0.563} \\ %
+        \bottomrule
+    \end{tabular}
+    \caption{Test set results for AD detection (binary labels) on the ADNI dataset. Higher is better for all metrics. Model selection was performed based on balanced accuracy. Results (mean and standard deviations) are reported over 5 runs with different seeds. The first column describes the neural network architecture or the encoder in the case of 2D-Slice models.}
+    \label{tab:adni_results}
+\end{table*}

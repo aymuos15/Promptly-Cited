@@ -1,0 +1,6 @@
+\begin{abstract}
+Transfer learning has remarkably improved computer vision. These advances also promise improvements in neuroimaging, where training set sizes are often small. However, various difficulties arise in directly applying models pretrained on natural images to radiologic images, such as MRIs. In particular, a mismatch in the input space (2D images vs.\ 3D MRIs) restricts the direct transfer of models, often forcing us to consider only a few MRI slices as input. To this end, we leverage the 2D-Slice-CNN architecture of Gupta et al.\ (2021), which embeds all the MRI slices with 2D encoders (neural networks that take 2D image input) and combines them via permutation-invariant layers. With the insight that the pretrained model can serve as the 2D encoder, we initialize the 2D encoder with ImageNet pretrained weights that outperform those initialized and trained from scratch on two neuroimaging tasks --- brain age prediction on the UK Biobank dataset and Alzheimer’s disease detection on the ADNI dataset. Further, we improve the modeling capabilities of 2D-Slice models by incorporating spatial information  through position embeddings, which can improve the performance in some cases.
+
+
+
+\end{abstract}

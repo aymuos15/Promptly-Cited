@@ -1,0 +1,105 @@
+\begin{thebibliography}{10}
+
+\bibitem{R2}
+T.~Boeken, J.~Feydy, A.~Lecler, P.~Soyer, A.~Feydy, M.~Barat, and al,
+\newblock ``Artificial intelligence in diagnostic and interventional radiology:
+  Where are we now?,''
+\newblock {\em Diagnostic and Interventional Imaging}, vol. 104, pp. 1--5,
+  2022.
+
+\bibitem{R3}
+M.~Kirby and BM. Smith,
+\newblock ``Quantitative ct scan imaging of the airways for diagnosis and
+  management of lung disease,''
+\newblock {\em CHEST}, vol. 164, pp. 1150--1158, 2023.
+
+\bibitem{R6}
+AS. Brody, MR. Kosorok, Z.~Li, LS. Broderick, JL. Foster, A.~Laxova, and al,
+\newblock ``Reproducibility of a scoring system for computed tomography
+  scanning in cystic fibrosis,''
+\newblock {\em Journal of Thoracic Imaging}, vol. 21, pp. 14--21, 2006.
+
+\bibitem{R4}
+KJ. Bayfield, TA. Douglas, T.~Rosenow, JC. Davies, SJ. Elborn, M.~Mall, and al,
+\newblock ``Time to get serious about the detection and monitoring of early
+  lung disease in cystic fibrosis,''
+\newblock {\em Thorax}, vol. 76, pp. 1255--1265, 2021.
+
+\bibitem{R1}
+G.~Dournes, CS. Hall, MM. Willmering, AS. Brody, J.~Macey, S.~Bui, B.~Denis
+  de~Senneville, P.~Berger, F.~Laurent, I.~Benlala, and JC. Woods,
+\newblock ``Artificial intelligence in computed tomography for quantifying lung
+  changes in the era of cftr modulators,''
+\newblock {\em European Respiratory Journal}, vol. 59, 2022.
+
+\bibitem{R7}
+F.~Isensee, PF. Jaeger, SAA. Kohl, J.~Petersen, and KH. Maier-Hein,
+\newblock ``nnu-net: a self-configuring method for deep learning-based
+  biomedical image segmentation,''
+\newblock {\em Nature Methods}, vol. 18, pp. 203--211, 2021.
+
+\bibitem{R8}
+A.~Reinke, MD. Tizabi, CH. Sudre, M.~Eisenmann, T.~Rädsch, M.~Baumgartner, and
+  al,
+\newblock ``Common limitations of image processing metrics: A picture story,''
+\newblock {\em ArXivOrg}, 2023.
+
+\bibitem{R12}
+RR. Selvaraju, M.~Cogswell, A.~Das, R.~Vedantam, D.~Parikh, and D.~Batra,
+\newblock ``Grad-cam: Visual explanations from deep networks via gradient-based
+  localization,''
+\newblock {\em IEEE International Conference on Computer Vision (ICCV)}, pp.
+  618--626, 2017.
+
+\bibitem{R10}
+J.~Ma, J.~Chen, M.~Ng, R.~Huang, Y.~Li, C.~Li, and al,
+\newblock ``Loss odyssey in medical image segmentation,''
+\newblock {\em Medical Image Analysis}, vol. 71, 2021.
+
+\bibitem{R9}
+SA. Taghanaki, K.~Abhishek, JP. Cohen, J.~Cohen-Adad, G.~Hamarneh,
+  M.~Baumgartner, and al,
+\newblock ``Deep semantic segmentation of natural and medical images: A
+  review,''
+\newblock {\em ArXivOrg}, 2020.
+
+\bibitem{R11}
+L.~Maier-Hein, E.~Al, B.~Menze, and al,
+\newblock ``Metrics reloaded: Pitfalls and recommendations for image analysis
+  validation,''
+\newblock {\em ArXivOrg}, 2022.
+
+\bibitem{R13}
+Y.~Gal and Z.~Ghahramani,
+\newblock ``Dropout as a bayesian approximation: representing model uncertainty
+  in deep learning,''
+\newblock {\em Proceedings of the 33rd International Conference on
+  International Conference on Machine Learning}, vol. 48, pp. 1050--1059, 2016.
+
+\bibitem{R16}
+L.~Crespi, D.~Loiacono, P.~Sartori, and R.~Kobbi,
+\newblock ``Are 3d better than 2d convolutional neural networks for medical
+  imaging semantic segmentation?,''
+\newblock {\em International Joint Conference on Neural Networks (IJCNN)}, pp.
+  1--8, 2022.
+
+\bibitem{R14}
+D.~Müller, I.~Soto-Rey, and F.~Kramer,
+\newblock ``Towards a guideline for evaluation metrics in medical image
+  segmentation,''
+\newblock {\em BMC Research Notes}, vol. 15, 2022.
+
+\bibitem{R17}
+X.~Zhao, P.~Zhang, F.~Song, C.~Ma, G.~Fan, Y.~Sun, and al,
+\newblock ``Prior attention network for multi-lesion segmentation in medical
+  images,''
+\newblock {\em IEEE Transactions on Medical Imaging}, vol. 41, pp. 3812--3823,
+  2022.
+
+\bibitem{R15}
+B.~Liu, J.~Dolz, A.~Galdran, R.~Kobbi, and I.~Ben Ayed,
+\newblock ``Do we really need dice? the hidden region-size biases of
+  segmentation losses,''
+\newblock {\em Medical Image Analysis}, vol. 91, 2024.
+
+\end{thebibliography}

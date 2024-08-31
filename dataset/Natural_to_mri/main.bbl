@@ -1,0 +1,179 @@
+\begin{thebibliography}{10}
+
+\bibitem{alzubaidi2021deepening}
+Laith Alzubaidi, Ye~Duan, Ayad Al-Dujaili, Ibraheem~Kasim Ibraheem, Ahmed~H
+  Alkenani, Jose Santamar{\'\i}a, and Others,
+\newblock ``Deepening into the suitability of using pre-trained models of
+  imagenet against a lightweight convolutional neural network in medical
+  imaging: an experimental study,''
+\newblock {\em PeerJ Computer Science}, vol. 7, pp. e715, 2021.
+
+\bibitem{ke2021chextransfer}
+Alexander Ke, William Ellsworth, Oishi Banerjee, Andrew~Y Ng, and Pranav
+  Rajpurkar,
+\newblock ``{CheXtransfer}: performance and parameter efficiency of imagenet
+  models for chest {X}-ray interpretation,''
+\newblock in {\em Proceedings of the Conference on Health, Inference, and
+  Learning}, 2021, pp. 116--124.
+
+\bibitem{valverde2021transfer}
+Juan~Miguel Valverde, Vandad Imani, Ali Abdollahzadeh, Riccardo De~Feo,
+  Mithilesh Prakash, Robert Ciszek, and Jussi Tohka,
+\newblock ``Transfer learning in magnetic resonance brain imaging: a systematic
+  review,''
+\newblock {\em Journal of Imaging}, vol. 7, no. 4, pp. 66, 2021.
+
+\bibitem{MALIK2022325}
+Nahiyan Malik and Danilo Bzdok,
+\newblock ``From {Y}ou{T}ube to the brain: {T}ransfer learning can improve
+  brain-imaging predictions with deep learning,''
+\newblock {\em Neural Networks}, vol. 153, pp. 325--338, 2022.
+
+\bibitem{hon2017towards}
+M.~{Hon} and N.~M. {Khan},
+\newblock ``{Towards Alzheimer's disease classification through transfer
+  learning},''
+\newblock in {\em 2017 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}, 2017, pp. 1166--1169.
+
+\bibitem{valliani2017deep}
+Aly Valliani and Ameet Soni,
+\newblock ``{Deep residual nets for improved Alzheimer's diagnosis},''
+\newblock in {\em Proceedings of the 8th ACM International Conference on
+  Bioinformatics, Computational Biology, and Health Informatics}, 2017, pp.
+  615--615.
+
+\bibitem{islam2018brain}
+Jyoti Islam and Yanqing Zhang,
+\newblock ``{Brain MRI analysis for Alzheimer’s disease diagnosis using an
+  ensemble system of deep convolutional neural networks},''
+\newblock {\em Brain Informatics}, vol. 5, no. 2, pp. 2, 2018.
+
+\bibitem{MRISignBrainAge}
+Vishnu~M Bashyam, Guray Erus, Jimit Doshi, Mohamad Habes, Ilya~M Nasrallah,
+  Monica Truelove-Hill, and Others,
+\newblock ``{MRI signatures of brain age and disease over the lifespan based on
+  a deep brain network and 14468 individuals worldwide},''
+\newblock {\em Brain}, vol. 143, no. 7, pp. 2312--2324, 06 2020.
+
+\bibitem{gupta2021improved}
+Umang Gupta, Pradeep~K Lam, Greg Ver~Steeg, and Paul~M Thompson,
+\newblock ``Improved brain age estimation with slice-based set networks,''
+\newblock in {\em 2021 IEEE 18th International Symposium on Biomedical Imaging
+  (ISBI)}, 2021, pp. 840--844.
+
+\bibitem{dhinagar2022evaluation}
+Nikhil~J Dhinagar, Sophia~I Thomopoulos, Priya Rajagopalan, Dimitris Stripelis,
+  Jose~Luis Ambite, Greg Ver~Steeg, and Paul~M Thompson,
+\newblock ``Evaluation of transfer learning methods for detecting {A}lzheimer's
+  disease with brain {MRI},''
+\newblock {\em bioRxiv}, 2022.
+
+\bibitem{lam2020accurate}
+Pradeep~K Lam, Vigneshwaran Santhalingam, Parth Suresh, Rahul Baboota, Alyssa~H
+  Zhu, Sophia~I Thomopoulos, Neda Jahanshad, and Paul~M Thompson,
+\newblock ``Accurate brain age prediction using recurrent slice-based
+  networks,''
+\newblock in {\em 16th International Symposium on Medical Information
+  Processing and Analysis}, 2020, vol. 11583, pp. 11--20.
+
+\bibitem{SCHLEMPER2019197}
+Jo~Schlemper, Ozan Oktay, Michiel Schaap, Mattias Heinrich, Bernhard Kainz, Ben
+  Glocker, and Daniel Rueckert,
+\newblock ``Attention gated networks: Learning to leverage salient regions in
+  medical images,''
+\newblock {\em Medical Image Analysis}, vol. 53, pp. 197--207, 2019.
+
+\bibitem{peng2019accurate}
+Han Peng, Weikang Gong, Christian~F. Beckmann, Andrea Vedaldi, and Stephen~M.
+  Smith,
+\newblock ``{Accurate brain age prediction with lightweight deep neural
+  networks},''
+\newblock {\em Medical Image Analysis}, vol. 68, pp. 101871, 2021.
+
+\bibitem{hu2020brain}
+Mengjiao Hu, Kang Sim, Juan~Helen Zhou, Xudong Jiang, and Cuntai Guan,
+\newblock ``Brain {MRI}-based {3D} convolutional neural networks for
+  classification of schizophrenia and controls,''
+\newblock in {\em 2020 42nd Annual International Conference of the IEEE
+  Engineering in Medicine \& Biology Society (EMBC)}, 2020, pp. 1742--1745.
+
+\bibitem{guanLearning2021}
+Hao Guan, Li~Wang, Dongren Yao, Andrea Bozoki, and Mingxia Liu,
+\newblock ``Learning transferable 3{D}-{CNN} for {MRI}-based brain disorder
+  classification from scratch: An empirical study,''
+\newblock in {\em Machine Learning in Medical Imaging}, 2021, pp. 10--19.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, \L~ukasz Kaiser, and Illia Polosukhin,
+\newblock ``Attention is all you need,''
+\newblock in {\em Advances in Neural Information Processing Systems}, 2017.
+
+\bibitem{dosovitskiy2021image}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, and Others,
+\newblock ``An image is worth 16x16 words: Transformers for image recognition
+  at scale,''
+\newblock in {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{ukbb}
+Karla~L Miller, Fidel Alfaro-Almagro, Neal~K Bangerter, David~L Thomas, Essa
+  Yacoub, Junqian Xu, and Others,
+\newblock ``Multimodal population brain imaging in the uk biobank prospective
+  epidemiological study,''
+\newblock {\em Nature Neuroscience}, vol. 19, no. 11, pp. 1523--1536, 2016.
+
+\bibitem{lam20203d}
+Pradeep Lam, Alyssa~H Zhu, Iyad~Ba Gari, Neda Jahanshad, and Paul~M Thompson,
+\newblock ``3{D} grid-attention networks for interpretable age and
+  {A}lzheimer's disease prediction from structural {MRI},''
+\newblock {\em arXiv preprint arXiv:2011.09115}, 2020.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun,
+\newblock ``Deep residual learning for image recognition,''
+\newblock in {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, 2016, pp. 770--778.
+
+\bibitem{deng2009imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei,
+\newblock ``Image{N}et: A large-scale hierarchical image database,''
+\newblock in {\em 2009 IEEE Conference on Computer Vision and Pattern
+  Recognition}, 2009, pp. 248--255.
+
+\bibitem{he2015delving}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun,
+\newblock ``Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification,''
+\newblock in {\em 2015 IEEE International Conference on Computer Vision
+  (ICCV)}, 2015, pp. 1026--1034.
+
+\bibitem{chen2021demystifying}
+Pu-Chin Chen, Henry Tsai, Srinadh Bhojanapalli, Hyung~Won Chung, Yin-Wen Chang,
+  and Chun-Sung Ferng,
+\newblock ``Demystifying the better performance of position encoding variants
+  for transformer,''
+\newblock {\em arXiv preprint arXiv:2104.08698}, 2021.
+
+\bibitem{chen2019med3d}
+Sihong Chen, Kai Ma, and Yefeng Zheng,
+\newblock ``{Med3D}: Transfer learning for {3D} medical image analysis,''
+\newblock {\em arXiv preprint arXiv:1904.00625}, 2019.
+
+\bibitem{doi:10.1148/ryai.210315}
+Xueyan Mei, Zelong Liu, Philip~M. Robson, Brett Marinelli, Mingqian Huang,
+  Amish Doshi, and Others,
+\newblock ``Rad{I}mage{N}et: An open radiologic deep learning research dataset
+  for effective transfer learning,''
+\newblock {\em Radiology: Artificial Intelligence}, vol. 4, no. 5, pp. e210315,
+  2022.
+
+\bibitem{alzubaidi2021mednet}
+Laith Alzubaidi, J~Santamar{\'\i}a, Mohamed Manoufali, Beadaa Mohammed,
+  Mohammed~A Fadhel, Jinglan Zhang, and Others,
+\newblock ``{MedNet}: {P}re-trained convolutional neural network model for the
+  medical imaging tasks,''
+\newblock {\em arXiv preprint arXiv:2110.06512}, 2021.
+
+\end{thebibliography}

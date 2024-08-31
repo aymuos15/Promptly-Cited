@@ -1,0 +1,31 @@
+\section{Experiment Setup}
+
+\subsection{Datasets}
+
+
+We consider two tasks --- Brain age prediction and Alzheimer's disease (AD) detection from brain MRIs.
+Our setup for brain age prediction is the same as~\cite{gupta2021improved}.
+We used MRI scans from a subset of healthy subjects from the UK Biobank dataset~\cite{ukbb} with no psychiatric diagnosis.  The training, test, and validation set sizes were 7,312; 940; and 2,194; with a mean chronological age and standard deviation of 62.6 and 7.4 years.
+
+We used the same dataset as~\cite{lam20203d} for the AD task. In particular, we use MRI scans from three phases of the  Alzheimer’s Disease Neuroimaging Initiative (ADNI), known as ADNI1,
+ADNI2/GO, and ADNI3. These datasets have repeated scans of the same subject. However, the subjects in train/test/validation sets do not overlap. We used
+4,561 scans (2,372/873/916 in train/validation/test).  The test set contains 244 scans with AD and 672 with a healthy diagnosis.
+
+All the scans were reoriented to a standard brain MRI template, and the final dimensions of each scan in both datasets were $91\times109\times91$.
+
+\subsection{Model \& Training}
+We evaluate the 2D-Slice-CNNs under different settings --- with and without positional encodings and with and without pretrained encoders. We consider two encoder architectures.  We use a 5-layer 2D-CNN  encoder (similar to~\cite{gupta2021improved, lam2020accurate}) adapted from the 3D-CNN baseline of~\cite{peng2019accurate} to benchmark the effect of incorporating positional encodings.
+
+We evaluate the effect of pretraining on natural images (2D) with pretrained ResNets~\cite{he2016deep}. We use ResNets pretrained on ImageNet-1K~\cite{deng2009imagenet} from the PyTorch model hub%
+\footnote{\url{https://pytorch.org/hub/}}
+as the 2D slice encoder. To get the slice embeddings from ResNets, we remove the final feed-forward layers and consider the output from the last layer (i.e., the average pooling layer). Therefore, the embedding sizes are 512 and 2048 for ResNet-18 and ResNet-50 encoders. For the 5-layer 2D-CNN encoder, the  embedding size is 32. When using pretrained weights, we finetune the entire model, including the encoder. Our implementation is available at \codeurl. 
+
+
+
+For 2D-Slice  models, we find that slicing MRI along the sagittal axis works best for brain age prediction, as also observed by~\cite{gupta2021improved}. However, this was not the case for the AD task. Therefore we report the results of slicing along all three axes for AD.  We use the same hyperparameters as~\cite{gupta2021improved}, except for the optimizer and learning rate.
+We search in \{(\adam, \four), (\sgd, \three / \four / \five)\} for the brain age prediction task.
+\adam\ optimizer with a learning rate of \four\ works best for all the models except for the 3D-CNN. We report results for all models on the AD task with a learning rate of \four\ and \adam\ optimizer\footnote{We evaluated 3D-CNN with \sgd\ on the AD task, but \adam\ worked best.}. All the models are trained for 100 epochs, and the best model was chosen based on performance on the validation set at the end of every epoch.
+
+\input{tables/adni}
+
+\input{tables/brain_age}
