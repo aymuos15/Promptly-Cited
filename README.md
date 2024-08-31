@@ -1,6 +1,6 @@
 # Zero-Shot citation generation for Large Language Models in academic papers
 
-In small context settings (currently 5 papers of 4 pages each) -- can we make llms provide answers with citations?
+In small context settings (currently 5 papers of 4 pages each) -- can we make llms provide answers with citations at inferecnce?
 
 ## Motivation
 
