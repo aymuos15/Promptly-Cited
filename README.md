@@ -57,4 +57,5 @@ That's it!
 
 # Acknowledgement.
 
-HUGE THANKS TO [CEREBRAS AI](https://cerebras.ai/) for giving me free credits on their inference accelarator platform.
+HUGE THANKS TO [CEREBRAS AI](https://cerebras.ai/) for giving us free credits on their inference accelarator platform.
+
